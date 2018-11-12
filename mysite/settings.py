@@ -25,7 +25,7 @@ SECRET_KEY = 'pyywln3ptqiy&47zw7y8^+l^r-jra7tzt7w=lt!&z^5lc3%3-m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'AlexChervonPython.pythonanywhere.com']
+ALLOWED_HOSTS = ['AntonKolesik.pythonanywhere.com']
 
 
 # Application definition
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'AlexChervonPytho$python',
-        'USER': 'AlexChervonPytho',
-        'PASSWORD': '2104AleX',
-        'HOST': 'AlexChervonPython.mysql.pythonanywhere-services.com',
+        'NAME': 'AntonKolesikPytho$python',
+        'USER': 'AntonKolesikPytho',
+        'PASSWORD': '12345',
+        'HOST': 'AntonKolesikPython.mysql.pythonanywhere-services.com',
     }
 }
 
@@ -125,7 +125,7 @@ STATIC_URL = '/static/'
 
 # default static files settings for PythonAnywhere.
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
-MEDIA_ROOT = u'/home/AlexChervonPython/mysite/media'
+MEDIA_ROOT = u'/home/AntonKolesikPython/mysite/media'
 MEDIA_URL = '/media/'
-STATIC_ROOT = u'/home/AlexChervonPython/mysite/static'
+STATIC_ROOT = u'/home/AntonKolesikPython/mysite/static'
 STATIC_URL = '/static/'
